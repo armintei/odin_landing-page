@@ -2,6 +2,7 @@ body {
     height: 100%;  
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 button {
@@ -29,8 +30,7 @@ a:hover {
 .section1 {
     height: 600px;
     background-color: #1F2937;
-    color: #F9FAF8;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #F9FAF8;  
 }
 
 .navbar {
@@ -57,7 +57,6 @@ a:hover {
 .navcontent-text {
     display: flex;
     flex-direction: column;
-    /*justify-content: center;*/
     align-content: center;
     max-width: 400px;
     min-width: 300px;
@@ -72,7 +71,6 @@ a:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .section2 h1 {
@@ -112,7 +110,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     padding: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24px;
     font-style: italic;
 }
@@ -140,7 +137,6 @@ a:hover {
     padding-left: 30px;
     padding-right: 30px;
     gap: 80px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .sign-up-text {
