@@ -1,0 +1,175 @@
+body {
+    height: 100%;  
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border-radius: 12px;
+    width: 90px;
+    padding: 8px;
+    background-color:aqua;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #ffffcc;
+}
+
+a {
+    color: #F9FAF8;  
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #ffffcc;
+}
+
+.section1 {
+    height: 600px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 60px 50px 20px;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+}
+
+.navcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 0px 40px 0px 40px;
+}
+
+.navcontent-text {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-content: center;
+    max-width: 400px;
+    min-width: 300px;
+    max-height: 350px;
+}
+
+.navcontent-text h1 {
+    font-size: 48px;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.section2 h1 {
+    font-size: 36px;
+}
+
+.piccontainer {
+    display: flex;
+    padding: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.picbox {
+    width: 200px;
+    margin: 12px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 {
+    background-color: darkgrey;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec3-container {
+    max-width: 1100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.quote {
+    align-self: flex-end;
+    font-size: 16px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sign-up-box {
+    background-color: #3882f6;
+    border-radius: 32px;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.sign-up-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-box button {
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    width: 100px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+.sign-up-btn button:hover {
+    background-color: #ffffcc;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    width: 100%;
+    text-align: center;
+}
